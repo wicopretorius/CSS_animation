@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62px;
+}
+
+Span{
+    margin: 0 14px;
+    color:slategray;
+    animation: spacing 3s forwards;
+    margin: 2px 2px;
+    
+}
+
+.factory{
+    color: #eec549;
+    animation: delay 5s;
+    font-style: italic;
+}
+
+@keyframes spacing{
+    0%, 25%{
+        margin: 0 14px;
+    }
+    100%{
+        margin: 0 4px;
+    }
+}
+
+@keyframes delay{
+    0%, 30%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

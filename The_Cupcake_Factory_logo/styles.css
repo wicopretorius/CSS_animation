@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62px;
+}
+
+Span{
+    color:slategray;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.factory{
+    color: #eec549;
+}
+
+@keyframes animation{
+    0%{
+        margin-left: 20px;
+    }
+    100%{
+        margin-left: 5px;
+    }
+}

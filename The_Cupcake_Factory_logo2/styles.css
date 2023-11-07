@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62px;
+}
+
+.title_container{
+    display:flex;
+}
+
+Span{
+     color:slategray;
+    animation: animation 3s ease-in-out forwards;
+}
+
+.factory{
+    color: #eec549;
+}
+
+@keyframes animation{
+    0%{
+        letter-spacing: 10px;
+    }
+    50%{
+        letter-spacing: 100px;
+        transform: skewX(0);
+    }
+    100%{
+        letter-spacing: 20px;
+        transform: skewX(-20deg);
+    }
+}
+

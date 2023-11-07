@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62px;
+}
+
+.title_container{
+    display:flex;
+}
+
+.cupcake{
+     color:slategray;
+     opacity: 0;
+    animation: 1s fade 1.5s forwards;
+}
+
+.factory{
+    color: #eec549;
+    transform: translateX(-250px);
+    animation: slide-right 2s forwards;
+}
+
+@keyframes slide-right{
+    to{
+        transform: translateX(0px);
+    }
+   
+}
+
+@keyframes fade{
+    to{
+        opacity: 1;
+    }
+   
+}
+

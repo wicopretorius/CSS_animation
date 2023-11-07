@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    background: #1f1c1c;
+   
+}
+
+.title_container{
+    display: flex;
+    animation: glow 1s infinite alternate;
+}
+
+
+@keyframes glow{
+    from{
+        color: #7a7979;
+        text-shadow: 0 0 10px cyan;
+    }
+    to{
+        color:white;
+        text-shadow: 0 0 50px cyan;
+    }
+}
+
+
+

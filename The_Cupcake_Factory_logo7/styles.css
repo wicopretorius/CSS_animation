@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    background: #1f1c1c;
+    color: lightslategray;
+}
+
+.title_container{
+    display:flex;
+}
+
+span{
+    animation: 3s color infinite;
+    animation-delay: calc(0.1s * var(--i))
+}
+
+
+@keyframes color{
+    0% {
+        color: lightslategray;
+    }
+    25%{
+        color: hotpink;
+    }
+    50% {
+        color: khaki;
+    }
+    100%{
+        color:lightblue;
+    }
+   
+}
+
+
